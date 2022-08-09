@@ -19,7 +19,11 @@ const HomeScreen = ({navigation}) => {
     return (
         <View style={{ flex: 1 }}>
 
-            <ImageBackground source={require('../../../assets/images/sethso.jpg')} style={styles.background} resizeMode="cover">
+            <ImageBackground 
+                 source={require('../../../assets/images/sethso.jpg')} 
+                 style={styles.background} 
+                 resizeMode="cover"
+                 >
                 <View style={styles.container}>
                     <View style={{ marginHorizontal: 20, alignItems: 'center', marginVertical: 40, justifyContent:'center', alignContent:'center' }}>
                         <Text style={styles.title} numberOfLines={2}>

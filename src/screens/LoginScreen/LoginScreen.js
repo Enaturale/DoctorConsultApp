@@ -5,13 +5,18 @@ import styles from './styles';
 
 const LoginScreen = () => {
     return(
-        
-            <ImageBackground style={{flex: 1}} source={require('../../../assets/images/doctor.png')}>
+        <View style={{backgroundColor:'white', flex: 1}}>
+            <ImageBackground 
+                style={{flex: 1}} 
+                source={require('../../../assets/images/diag.jpg')} 
+                resizeMode="contain"
+                >
 
-                <View>
-                    <Text>Welcome Back.</Text>
-                </View>
+                 <View style={styles.container}>
+                    <Text style={styles.title}>Welcome Back.</Text>
+                </View> 
             </ImageBackground>
+            </View>
             
       
     )
