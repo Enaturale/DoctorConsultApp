@@ -1,14 +1,19 @@
 import React from 'react';
 
-import {View, Text} from 'react-native'
+import {View, Text, ImageBackground, TextInput} from 'react-native'
+import styles from './styles';
 
 const LoginScreen = () => {
     return(
-        <View>
-            <Text>
-                Login Screen
-            </Text>
-        </View>
+        
+            <ImageBackground style={{flex: 1}} source={require('../../../assets/images/doctor.png')}>
+
+                <View>
+                    <Text>Welcome Back.</Text>
+                </View>
+            </ImageBackground>
+            
+      
     )
 }
 
