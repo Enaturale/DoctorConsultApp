@@ -8,7 +8,7 @@ const LoginScreen = () => {
         <View style={{backgroundColor:'white', flex: 1}}>
             <ImageBackground 
                 style={{flex: 1}} 
-                source={require('../../../assets/images/diag.jpg')} 
+                source={require('../../../assets/images/firstaid.png')} 
                 resizeMode="contain"
                 >
 
