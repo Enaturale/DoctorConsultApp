@@ -2,20 +2,32 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container:{
-        height: 700,
-        backgroundColor:"#0E3A6B",
-        opacity: 0.6,
-        marginTop: 180,
-        borderTopRightRadius: 20,
-        borderTopLeftRadius: 20,
+        height: 500,
+        backgroundColor:"#969696",
+        // opacity: 0.6,
+        marginTop: 190,
+        borderRadius: 20,
+        alignContent:'center'
+        
 
     },
     title:{
         fontSize: 30,
-        fontFamily: "Segoe UI Bold",
-        color:'white',
-        marginVertical: 40,
-        marginHorizontal: 20,
+        fontFamily: "Nunito-Bold",
+        color:'black',
+        marginVertical: 2,
+        marginTop: 20,
+        alignSelf:'center'
+    },
+    subs:{
+        alignSelf:'center',
+        fontSize: 20,
+        color:'black',
+
+
+    },
+    textInput:{
+
     }
 
 })
