@@ -40,15 +40,15 @@ const HomeScreen = ({ navigation }) => {
                     </View>
 
 
-                    <View style={{ marginVertical: 60, alignItems: 'center', justifyContent: 'center', alignContent: 'center' }}>
+                    {/* <View style={{ marginTop: 90, alignItems: 'center', justifyContent: 'center', alignContent: 'center' }}>
                         <Pressable style={styles.loginBtn} onPress={gotoLogin}>
                             <Text style={styles.textBtn}>Log In</Text>
                         </Pressable>
-                    </View>
+                    </View> */}
 
-                    <View>
-                        <Pressable style={styles.signupBtn}>
-                            <Text style={[styles.textBtn, { color: 'white' }]}>Sign Up</Text>
+                    <View style={{ marginTop: 150, alignItems: 'center', justifyContent: 'center', alignContent: 'center' }}>
+                        <Pressable style={styles.signupBtn} onPress={gotoLogin}>
+                            <Text style={[styles.textBtn, { color: 'white' }]}>Begin</Text>
                         </Pressable>
                     </View>
                 </View>
@@ -65,35 +65,35 @@ const styles = StyleSheet.create({
         alignContent: 'center',
         justifyContent: 'center',
         alignItems: 'center',
-        height: 800,
-        marginTop: 10,
+        // height: 800,
+        marginTop: 150,
         //backgroundColor: 'white',
         borderRadius: 15,
         opacity: 0.8,
     },
     title: {
-        fontSize: 27,
-        fontFamily: 'Nunito-Black ',
+        fontSize: 25,
+        fontFamily: 'Nunito-ExtraBoldItalic',
         // color: '#0E3A6B',
         color: 'black',
         textAlign: 'center',
-        marginBottom: 160,
+        marginBottom: 180,
     },
     loginBtn: {
         height: 50,
-        width: 180,
+        width: 300,
         borderRadius: 15,
-        borderColor: 'black',
+        borderColor: '#0E3A6B',
         borderWidth: 1.5,
         alignItems: 'center',
         justifyContent: 'center',
+        marginBottom: 40,
 
     },
     signupBtn: {
         height: 50,
-        width: 180,
+        width: 330,
         borderRadius: 15,
-        borderColor: 'black',
         borderWidth: 2,
         alignItems: 'center',
         justifyContent: 'center',
@@ -103,8 +103,10 @@ const styles = StyleSheet.create({
     },
     textBtn: {
         fontSize: 23,
-        fontFamily: "Segoe UI Bold"
-    }
+        fontFamily: "Nunito-ExtraBold",
+        color:'#0E3A6B'
+    },
+   
 
 
 })
