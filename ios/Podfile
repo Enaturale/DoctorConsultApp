@@ -21,6 +21,10 @@ target 'doctorConsultApp' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'RNCCheckbox', :path => '../node_modules/@react-native-community/checkbox'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'doctorConsultAppTests' do
     inherit! :complete
     # Pods for testing

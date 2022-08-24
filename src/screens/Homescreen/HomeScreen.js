@@ -19,8 +19,6 @@ const HomeScreen = ({ navigation }) => {
     return (
         <View style={{ flex: 1, backgroundColor: 'white' }}>
 
-
-
             <ImageBackground
                 source={require('../../../assets/images/firstaid.png')}
                 style={styles.background}
@@ -75,7 +73,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 27,
-        fontFamily: 'Nunito-Bold ',
+        fontFamily: 'Nunito-Black ',
         // color: '#0E3A6B',
         color: 'black',
         textAlign: 'center',

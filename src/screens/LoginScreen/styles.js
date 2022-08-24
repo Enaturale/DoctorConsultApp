@@ -2,13 +2,18 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container:{
-        height: 500,
+        height: 700,
         backgroundColor:"#969696",
         // opacity: 0.6,
         marginTop: 190,
         borderRadius: 20,
         alignContent:'center'
         
+
+    },
+    miniContainer:{
+        marginVertical: 20,
+        marginHorizontal: 20,
 
     },
     title:{
@@ -21,13 +26,12 @@ const styles = StyleSheet.create({
     },
     subs:{
         alignSelf:'center',
-        fontSize: 20,
+        fontSize: 16,
         color:'black',
-
-
     },
     textInput:{
-
+        borderWidth: 1,
+        borderColor: 'black'
     }
 
 })
