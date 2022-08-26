@@ -99,7 +99,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#0E3A6B',
         borderColor: "#0E3A6B",
-
     },
     textBtn: {
         fontSize: 23,
